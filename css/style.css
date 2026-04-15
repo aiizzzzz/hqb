@@ -1,0 +1,340 @@
+.font-right-section{
+	display: block;
+}
+.baseContent{
+	left: 0px;
+}
+.base_details img{
+	height: 300px;
+}
+.baseContent{
+	position: relative;
+}
+.base_details h1{
+	font-weight: 400;
+	font-size: 52px;
+}
+.base_details h1 .text1{
+    letter-spacing: -0.125rem;
+    font-weight:bold;
+    color: #e52165;
+}
+.base_details h1 .text2{
+	letter-spacing: -0.125rem;
+	color:#0d1137;
+	font-weight:bold;
+}
+.div-contact a{
+    font-weight:bold;
+}
+.div-contact a svg{
+	transform-origin: 0.3125em 0.59375em;
+}
+.home-side-left {
+	position: relative;
+	right: 0px;
+}
+.side-left-img1 .bg-holder{
+	background-image:url(../images/about2.jpg);
+}
+.side-left-img2 .bg-holder{
+    background-image:url(../images/service2.jpg);
+}
+.side-left-img3 .bg-holder{
+    background-image:url(../images/portfolio2.jpg);
+}
+.side-left-img4 .bg-holder{
+    background-image:url(../images/gallery2.jpg);
+}
+.side-left-img5 .bg-holder{
+    background-image:url(../images/faq2.jpg);
+}
+.side-left-img6 .bg-holder{
+    background-image:url(../images/contact2.jpg);
+}
+.side-left-img1 .sidebar-item h2,
+.side-left-img2 .sidebar-item h2,
+.side-left-img3 .sidebar-item h2,
+.side-left-img4 .sidebar-item h2,
+.side-left-img5 .sidebar-item h2,
+.side-left-img6 .sidebar-item h2{
+  font-weight: 300;
+  color: #ffffff;
+}
+
+
+.about_page{
+	display: none;
+}
+.about-title h2{
+    color: #e52165;
+}
+.about-title h2 .text{
+   font-weight: 500;
+   color: #0d1137;
+}
+.about_img {
+	position: relative;
+	background-image:url(../images/about_img1.png);
+}
+.about-video{
+	position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%) rotate(-90deg);
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 25px solid #e52165;
+}
+
+.about-video a svg{
+	transform-origin: 0.46875em 0.5em;
+	background: #ffffff;
+    border-radius: 500px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+}
+
+.about-card img{
+	width: 30%; 
+	border-top-right-radius: 1px;
+}
+.page-footer .bg-holder{
+	background-image:url(../images/footer.jpg);
+	background-position: 0 27%;
+	transform: scale(1.1);
+}
+.tema-content img{
+	width: 150px;
+    height: 150px;
+}
+.common-leftside .bg-holder{
+	background-image:url(../images/about.jpg);
+}
+.common-leftside2 .bg-holder{
+	background-image:url(../images/service.jpg);
+}
+.common-leftside3 .bg-holder{
+	background-image:url(../images/portfolio.jpg);
+}
+.common-leftside4 .bg-holder{
+	background-image:url(../images/gallery.jpg);
+}
+.common-leftside5 .bg-holder{
+	background-image:url(../images/gallery.jpg);
+}
+.common-leftside6 .bg-holder{
+	background-image:url(../images/contact.jpg);
+}
+
+
+.service-page{
+	position: absolute;
+	display: none;
+}
+.pricing-con h4{
+	color: #e52165;
+}
+.pricing-con h2{
+	color: #e52165;
+}
+.pricing-con li{
+	margin-bottom: 10px;
+}
+.pricing-con2 li{
+	margin-bottom: 10px;
+}
+.pricing-con .bg-btn{
+	background-color: #e52165;
+	color: #ffffff;
+}
+.partner img{
+	width: 7.5rem;
+}
+
+
+.extra-btn{
+	background-color: #e52165;
+    border-color: #e52165;
+    color: #ffffff;
+}
+.extra-btn:hover{
+	color: #ffffff;
+}
+.carrer-page{
+	display: block;
+}
+
+
+.gallery-page {
+	display: block;
+}
+.faq-page{
+	display: none;
+}
+.contact-page{
+	display: none;
+}
+.contact-btn{
+	background-color: #e52165;
+	color: #ffffff;
+}
+
+
+@media screen and (max-width: 576px) {
+  .base_details img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+/*=============================================
+=============================================
+           Index page
+=============================================
+=============================================*/
+
+.indexlink{
+  background: #f26522;
+  color: #fff !important;
+}
+.demo-navbar{
+  padding: 20px 0px;
+}
+.image-container span img {
+  height: auto;
+  max-width: 50%;
+}
+.features-item{
+  background-color: #eee;
+  padding: 30px;
+}
+.features-item .title-text{
+  font-size: 18px;
+  margin-top: 16px;
+}
+#preview-section .section-tittle::before{
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  background-color: #f26522;
+}
+.image-container a img{
+  position: relative;
+}
+.overlay-preview{
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  bottom: 0;
+  background-color: rgba(21,65,126,0.44);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.overlay-preview:hover{
+  background-color: rgba(21,65,126,0.88);
+  cursor: pointer;
+}
+.overlay-preview .title-text{
+  color: #fff !important;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 500;
+  transform: translateY(185px);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+} 
+.overlay-preview:hover .title-text{
+  font-size: 30px;
+}
+.banner-content-preview{
+   transform: translateY(500px);
+}
+.preview-h1{
+  color: #fff;
+  background: none !important;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.preview-desc p{
+  color: #fff;
+  font-weight: 400;
+}
+.preview-button{
+  background-color: #ffffff;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 50px;
+}
+.preview-button a{
+  color: #0d1137;
+}
+.preview-button a i{
+  margin-left: 5px;
+}
+#preview-banner-section{
+  background-color: #0d1137;
+}
+.preview-menu-sticky {
+  background: #ffffff;
+  border-bottom: 1px solid #15417e;
+}
+.navbar .navbar-collapse .demo-navbar li a {
+    color: #ffffff !important;
+}
+.preview-content{
+  padding: 140px 0px;
+}
+.preview-item .image-container img{
+  width: 730px;
+  height: auto;
+}
+.demo-header{
+  background-color: #0a203845;
+}
+#preview-section{
+	padding: 60px 0px;
+}
+#feature-section{
+	padding-bottom: 60px;
+}
+#footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0px;
+    background: #f1f1f1f1;
+}
